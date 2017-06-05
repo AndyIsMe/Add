@@ -1,0 +1,19 @@
+---
+:source:
+  :path: test
+  :file: test_add.c
+:successes:
+- :test: test_add_2_and_2_expect_4
+  :line: 12
+  :message: ''
+:failures:
+- :test: test_add_minus_30_and_10_expect_minus_20
+  :line: 29
+  :message: Expected 4 Was -10
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 1
+  :failed: 1
+  :ignored: 0
+:stdout: []
